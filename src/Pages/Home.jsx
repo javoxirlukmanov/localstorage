@@ -3,6 +3,7 @@ import React from 'react'
 const Home = ({login,email,password}) => {
   return <main>
     <div className="container">
+
       <div className="row justify-content-center">
         <div className="col-auto">
           <form action="" onSubmit={login}>
